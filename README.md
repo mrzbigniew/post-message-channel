@@ -3,16 +3,17 @@
 ## Usage
 
 ## Drivers
-### LocalStorage
+### Storage 
+* some info
+#### Local Storage & SessionStorage
 
-### Session Storage
-
-### Cookies
+### BroadcastChannel
 
 ### window.postMessage
 
-### BroadcastChannel
 
 ### ServiceWorker
 
 ### SharedServiceWorker
+
+### Cookies
