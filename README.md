@@ -13,11 +13,13 @@ const subscription = channel.subscribe((message) => console.log(message));
 channel.postMessage('sample message');
 //...
 subscription.unsubscribe();
-
+//...
+channel.close();
+//..
 ```
 
 ## Drivers
-Post message channel have build on 
+Post message channel library already have implemented fev drivers. Below is the list of the drivers.
 ### Storage 
 
 #### Local Storage & SessionStorage
@@ -26,9 +28,11 @@ Post message channel have build on
 
 ### window.postMessage
 
-
 ### ServiceWorker
 
 ### SharedServiceWorker
 
 ### Cookies
+
+### Custom driver
+It is possible to create communication channel just by passing custom communication driver. 
